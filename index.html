@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; script-src &#39;self&#39; https://telegram.org; style-src &#39;self&#39; &#39;unsafe-inline&#39;; connect-src &#39;self&#39; https://tiles.openfreemap.org https://overpass-api.de https://overpass.private.coffee https://overpass.kumi.systems https://qesuhhhiswwrfvfisfkp.supabase.co; img-src &#39;self&#39; data: blob:; font-src &#39;self&#39; data:; worker-src &#39;self&#39; blob:; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;none&#39;">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#efefed" />
+    <meta name="description" content="Flockly — Telegram Mini App для организации встреч" />
+    <title>Flockly</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="brand/favicon-32.png" />
+    <link rel="apple-touch-icon" href="brand/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Flockly" />
+    <meta property="og:description" content="Время и место для встречи — вместе" />
+    <meta property="og:image" content="https://sashavas17.github.io/flockly/brand/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Our own copy of the Telegram script (deploy-pages.yml downloads it at build time):
+         telegram.org does not open in every network. src/telegram.ts falls back to the official one. -->
+    <script src="telegram-web-app.js"></script>
+    <script type="module" crossorigin src="/flockly/assets/index-Ds6YjI8U.js"></script>
+    <link rel="stylesheet" crossorigin href="/flockly/assets/index-DQLP4qp5.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
